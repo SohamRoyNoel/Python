@@ -1,0 +1,142 @@
+dracula_list=["Ivy", "Bidisha", "Sreeparna k", "ankita nath"]
+# for i in dracula_list:
+#     print("Me {0}, love Soham".format(i))
+
+for i in dracula_list:
+    if i == 'Bidisha':
+        print("Soham doesn't love {0}".format(i))
+        break
+    print("{0} loves Soham".format(i))
+print("{0} loves Soham".format(i))
+
+# for i in dracula_list:
+#     if i == 'Bidisha':
+#         print("Soham doesn't love {0}".format(i))
+#         continue
+#     print("{0} loves Soham".format(i))
+# print("{0} loves Soham".format(i))
+
+********************************************************
+C:\Users\HP\PycharmProjects\Hello_World\venv\Scripts\python.exe "C:/Users/HP/PycharmProjects/Hello_World/Hello world.py"
+Ivy loves Soham
+Soham doesn't love Bidisha
+Bidisha loves Soham
+
+Process finished with exit code 0
+*************************************************************
+C:\Users\HP\PycharmProjects\Hello_World\venv\Scripts\python.exe "C:/Users/HP/PycharmProjects/Hello_World/Hello world.py"
+Ivy loves Soham
+Soham doesn't love Bidisha
+Sreeparna k loves Soham
+ankita nath loves Soham
+ankita nath loves Soham
+
+Process finished with exit code 0
+*******************************************************************
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ If ELSE in list [not found case]
+**********************************************************************
+dracula_list=["Ivy", "Meghna", "Sreeparna k", "ankita nath"]
+
+for i in dracula_list:
+    if i == 'Bidisha':
+        print("Soham doesn't love {0}".format(i))
+        continue
+    else:
+        print("meghna loves you soham")
+    print("{0} loves Soham".format(i))
+print("{0} loves Soham".format(i)) #outside of for
+
+************O/P :
+C:\Users\HP\PycharmProjects\Hello_World\venv\Scripts\python.exe "C:/Users/HP/PycharmProjects/Hello_World/Hello world.py"
+meghna loves you soham
+Ivy loves Soham
+meghna loves you soham
+Meghna loves Soham
+meghna loves you soham
+Sreeparna k loves Soham
+meghna loves you soham
+ankita nath loves Soham
+ankita nath loves Soham
+
+Process finished with exit code 0
+
+*******************************************************************
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ If ELSE in list [found]
+**********************************************************************
+dracula_list=["Ivy", "Bidisha", "Sreeparna k", "ankita nath"]
+
+for i in dracula_list:
+    if i == 'Bidisha':
+        print("Soham doesn't love {0}".format(i))
+        continue
+    else:
+        print("meghna loves you soham")
+    print("{0} loves Soham".format(i))
+print("{0} loves Soham".format(i)) #outside of for
+************O/P :
+C:\Users\HP\PycharmProjects\Hello_World\venv\Scripts\python.exe "C:/Users/HP/PycharmProjects/Hello_World/Hello world.py"
+meghna loves you soham
+Ivy loves Soham
+Soham doesn't love Bidisha
+meghna loves you soham
+Sreeparna k loves Soham
+meghna loves you soham
+ankita nath loves Soham
+ankita nath loves Soham
+
+Process finished with exit code 0
+
+*******************************************************************
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ If ELSE in BREAK list [NOT found]
+**********************************************************************
+dracula_list=["Ivy", "Meghna", "Sreeparna k", "ankita nath"]
+# for i in dracula_list:
+#     print("Me {0}, love Soham".format(i))
+
+for i in dracula_list:
+    if i == 'Bidisha':
+        print("Soham doesn't love {0}".format(i))
+        break
+    else:
+        print("from else GIRL")
+    print("{0} loves Soham".format(i)) #outside else
+print("{0} loves Soham".format(i)) #outside loop
+********************************************O/P:
+C:\Users\HP\PycharmProjects\Hello_World\venv\Scripts\python.exe "C:/Users/HP/PycharmProjects/Hello_World/Hello world.py"
+from else GIRL
+Ivy loves Soham
+from else GIRL
+Meghna loves Soham
+from else GIRL
+Sreeparna k loves Soham
+from else GIRL
+ankita nath loves Soham
+ankita nath loves Soham
+
+Process finished with exit code 0
+
+
+*******************************************************************
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ If ELSE in BREAK list [found]
+**********************************************************************
+dracula_list=["Ivy", "Bidisha", "Sreeparna k", "ankita nath"]
+
+for i in dracula_list:
+    if i == 'Bidisha':
+        print("Soham doesn't love {0}".format(i))
+        break
+    else:
+        print("FROM ELSE GIRL")
+    print("{0} loves Soham".format(i))
+print("{0} loves Soham".format(i))
+********************************************O/P:
+C:\Users\HP\PycharmProjects\Hello_World\venv\Scripts\python.exe "C:/Users/HP/PycharmProjects/Hello_World/Hello world.py"
+FROM ELSE GIRL
+Ivy loves Soham
+Soham doesn't love Bidisha
+Bidisha loves Soham
+
+Process finished with exit code 0
+
+
+

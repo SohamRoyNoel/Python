@@ -1,0 +1,43 @@
+list1 = [5, 9, 7, 10]
+list2 = [1, 4, 3, 2]
+
+list3 = list1+list2
+print(list3)
+list3.sort()
+print(list3)
+
+#illigal ways
+list3 = list1+list2
+# list3.sort()
+print(list3.sort())
+
+list3 = list1+list2
+list3.sort()
+print(sorted(list3))
+
+list3 = list1+list2
+countlist = sorted(list3)
+print(countlist)
+
+if list1+list2 == countlist:
+    print("they are equal")
+else:
+    print("they are not equal")
+
+if sorted(list1+list2) == countlist:
+    print("they are equal")
+else:
+    print("they are not equal")
+
+******************************************************************************
+C:\Users\HP\PycharmProjects\Hello_World\venv\Scripts\python.exe "C:/Users/HP/PycharmProjects/Hello_World/Hello world.py"
+[5, 9, 7, 10, 1, 4, 3, 2]
+[1, 2, 3, 4, 5, 7, 9, 10]
+None
+[1, 2, 3, 4, 5, 7, 9, 10]
+[1, 2, 3, 4, 5, 7, 9, 10]
+they are not equal
+they are equal
+
+Process finished with exit code 0
+*******************************************************************************

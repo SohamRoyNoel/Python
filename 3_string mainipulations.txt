@@ -1,0 +1,113 @@
+age = 25
+# print("My age is" + age)
+
+print("My age is {0}", format(age))
+print("My age {0} is" .format(age))
+# print("My age is {0}", .format(age))
+
+print("there are {0} days in {1}, {2}, {3}, {4}, {5}, {6}" .format(31, "January", "March", "April", "May", "June", "July"))
+
+print()
+
+print("""January = {2}
+February= {0}
+March ={1}
+April = {2}
+May ={1}
+June = {2}
+July ={1}
+august= {2}
+september ={1}
+october= {2}
+november ={1}
+december = {2}""" .format(28,30,31))
+
+#in python 2
+
+print()
+
+print("I am %d years old" %age)
+
+print("Pi is approx {0}" .format(22/7))
+
+print()
+
+for i in range(1,12):print("no is {0} sq = {1} cube = {2}".format(i, i**2, i**3)) #in indentation
+
+print()
+
+for i in range(1,12):print("no is {0:2} sq = {1:4} cube = {2:4}".format(i, i**2, i**3))  #second parameter is called WIDTH (right indent)
+
+print()
+
+for i in range(1,12):print("no is {0:<2} sq = {1:<4} cube = {2:<4}".format(i, i**2, i**3))  # < stands for LEFT side WILL be equal indent
+
+print()
+
+for i in range(1,12):print("no is {} sq = {0} cube = {:4}".format(i, i**2, i**3))
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+C:\Users\HP\PycharmProjects\Hello_World\venv\Scripts\python.exe "C:/Users/HP/PycharmProjects/Hello_World/Hello world.py"
+Traceback (most recent call last):
+My age is {0} 25
+  File "C:/Users/HP/PycharmProjects/Hello_World/Hello world.py", line 47, in <module>
+My age 25 is
+there are 31 days in January, March, April, May, June, July
+
+January = 31
+February= 28
+    for i in range(1,12):print("no is {} sq = {0} cube = {:4}".format(i, i**2, i**3))
+March =30
+ValueError: cannot switch from automatic field numbering to manual field specification
+April = 31
+May =30
+June = 31
+July =30
+august= 31
+september =30
+october= 31
+november =30
+december = 31
+
+I am 25 years old
+Pi is approx 3.142857142857143
+
+no is 1 sq = 1 cube = 1
+no is 2 sq = 4 cube = 8
+no is 3 sq = 9 cube = 27
+no is 4 sq = 16 cube = 64
+no is 5 sq = 25 cube = 125
+no is 6 sq = 36 cube = 216
+no is 7 sq = 49 cube = 343
+no is 8 sq = 64 cube = 512
+no is 9 sq = 81 cube = 729
+no is 10 sq = 100 cube = 1000
+no is 11 sq = 121 cube = 1331
+
+no is  1 sq =    1 cube =    1
+no is  2 sq =    4 cube =    8
+no is  3 sq =    9 cube =   27
+no is  4 sq =   16 cube =   64
+no is  5 sq =   25 cube =  125
+no is  6 sq =   36 cube =  216
+no is  7 sq =   49 cube =  343
+no is  8 sq =   64 cube =  512
+no is  9 sq =   81 cube =  729
+no is 10 sq =  100 cube = 1000
+no is 11 sq =  121 cube = 1331
+
+no is 1  sq = 1    cube = 1   
+no is 2  sq = 4    cube = 8   
+no is 3  sq = 9    cube = 27  
+no is 4  sq = 16   cube = 64  
+no is 5  sq = 25   cube = 125 
+no is 6  sq = 36   cube = 216 
+no is 7  sq = 49   cube = 343 
+no is 8  sq = 64   cube = 512 
+no is 9  sq = 81   cube = 729 
+no is 10 sq = 100  cube = 1000
+no is 11 sq = 121  cube = 1331
+
+
+Process finished with exit code 1
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

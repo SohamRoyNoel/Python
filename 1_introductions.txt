@@ -1,0 +1,129 @@
+print('hello world')
+print(10+9)
+
+print("hello"+"world")
+print("Hello"+ " "+"world")
+a=10;
+print(a);
+a="python"
+print(a)
+a="python"
+b="programming"
+print(a+ " " +b);
+a=10
+b=20
+print(a*b)
+--------------------------------
+C:\Users\HP\PycharmProjects\Hello_World\venv\Scripts\python.exe "C:/Users/HP/PycharmProjects/Hello_World/Hello world.py"
+hello world
+19
+helloworld
+Hello world
+10
+python
+python programming
+200
+
+Process finished with exit code 0
+*********************************************************************************************************
+STRING MANIPULATION
+*********************************************************************************************************
+print("enter your name")
+a=input()
+print("Hello " +a)
+
+splitstring=" we are \n learning \n Python"
+print(splitstring)
+
+tabbedstring="1\t2\t3\t4\t5\t6\t7\t8\t9"
+print(tabbedstring)
+
+triplequt="""you are
+one of
+the greatest
+idiots in the
+world"""
+
+print(triplequt)
+
+# type='do you like 'em? ' #error
+# print(type)
+
+type='do you like \'em'  # \IS CALLED escape character
+print(type)
+----------------------------------OUTPUT
+C:\Users\HP\PycharmProjects\Hello_World\venv\Scripts\python.exe "C:/Users/HP/PycharmProjects/Hello_World/Hello world.py"
+enter your name
+Soham
+Hello Soham
+ we are 
+ learning 
+ Python
+1	2	3	4	5	6	7	8	9
+you are
+one of
+the greatest
+idiots in the
+world
+do you like 'em
+
+Process finished with exit code 0
+
+***********************************************************************************************************************
+working with general veriables
+***********************************************************************************************************************
+variable=input("enter your name")
+variable2=input("enter your age")
+
+print(variable)
+print(variable2)
+print(variable+variable2)  #noerror
+
+variable=input("enter your name")
+variable2=24
+print(variable+variable2)  #error
+
+---------------------------------C:\Users\HP\PycharmProjects\Hello_World\venv\Scripts\python.exe "C:/Users/HP/PycharmProjects/Hello_World/Hello world.py"
+enter your name Soham
+enter your age 20
+ Soham
+ 20
+ Soham 20
+enter your name Soham
+Traceback (most recent call last):
+  File "C:/Users/HP/PycharmProjects/Hello_World/Hello world.py", line 10, in <module>
+    print(variable+variable2)  #error
+TypeError: must be str, not int
+
+Process finished with exit code 1
+
+***********************************************************************************************************************
+mathematical functions
+***********************************************************************************************************************
+a=10;
+b=5;
+print(a+b);
+print(a-b);
+print(a*b);
+print(a/b);
+print(a%b);
+print(a//b);
+
+#operator presidence
+
+variable=(a+b*2+a/2)
+print(variable)
+
+variable2=(((a+b)*2)+a/2)
+-------------------------------------------------------------------------------------outputs
+C:\Users\HP\PycharmProjects\Hello_World\venv\Scripts\python.exe "C:/Users/HP/PycharmProjects/Hello_World/Hello world.py"
+15
+5
+50
+2.0
+0
+2
+25.0
+
+Process finished with exit code 0
+
